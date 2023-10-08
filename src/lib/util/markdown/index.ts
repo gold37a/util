@@ -1,1 +1,1 @@
-export * as parse from './parse.js'
+export * as parse from './parse/index.js'

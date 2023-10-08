@@ -2,7 +2,7 @@ export { create_blob } from './create_blob.js';
 export { average } from './average.js';
 export { check_JSONPaths } from './check_JSONPaths.js';
 export { float32_buffer } from './float32_buffer.js';
-export { escape_email } from './escape.js';
+export { escape } from './escape.js';
 export { download_blob } from './download_blob.js';
 export { unescape_email } from './unescape_email.js';
 export { transcribe } from './transcribe.js';
@@ -16,5 +16,6 @@ export { friendly_milliseconds } from './friendly_milliseconds.js';
 export * as theme_store from './theme_store.js';
 export * as store from './store.js';
 
-export * as markdown from './markdown/index.js';
+export * as parse from './markdown/parse/index.js'
+// export * as markdown from './markdown/index.js';
 export * as sanitize from './sanitize/index.js';
